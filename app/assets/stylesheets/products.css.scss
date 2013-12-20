@@ -1,0 +1,101 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.thumbnails {
+  text-align: center;
+}
+
+.product-image {
+  height: 15em;
+  width: 15em;
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+  border:3px solid #003300;
+  border-radius: 5px;
+  color: white;
+}
+
+.placeholder {
+  height:0;
+  width: 15em;
+  border: none;
+  display: inline-block;
+}
+
+.product-image h3 {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding-top: 5em;
+  background-color: rgba(0,0,0,0.0);
+}
+
+.product-image h3:hover {
+  background-color: rgba(0,0,0,0.0)
+}
+
+.product-display-case {
+  padding:1em;
+  border: 3px solid forestgreen;
+  border-radius: 5px;
+  display: inline-block;
+  min-width: 50%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.product-display-case img {
+  border: 3px solid forestgreen;
+  border-radius: 5px; 
+  max-width: 25em;
+  max-height: 25em;
+}
+
+.product-display-case h1 {
+  font-size: 3em;
+}
+
+.nav-buttons {
+  padding:1em;
+  width: 90%;
+  margin: 5%;
+  border-radius: 5px;
+}
+
+.reviews-display {
+  padding: 1em 3em;
+  min-width: 49%;
+  max-width: 30em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.reviews-display h2 {
+  padding-left: 0.75em;
+}
+
+.review-case {
+  padding:0 1em 1em 1em;
+}
+
+.review-case article {
+  width: 85%;
+  display: inline-block;
+}
+
+.action-button-column {
+  width: 10%;
+  padding: 0 2.5%;
+  display: inline-block;
+  text-align: center;
+}
+
+.new-review-form {
+  border:1px dashed #003300;
+  border-radius: 5px;
+  padding: 1em;
+  margin-top: 2em;
+}
